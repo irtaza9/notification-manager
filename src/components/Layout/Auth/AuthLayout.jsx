@@ -76,7 +76,7 @@ export const Layout = (props) => {
             >
               Welcome to{" "}
               <Box component={Link} sx={{ color: "#15B79E" }} target="_blank">
-                Nayatel
+                {import.meta.env.VITE_ORG}
               </Box>
             </Typography>
             <Typography align="center" sx={{ mb: 3 }} variant="subtitle1">
