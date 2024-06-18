@@ -1,0 +1,48 @@
+.project__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project__card:hover {
+  background-color: #f5f5f5;
+}
+
+.projectcard__body {
+  flex-grow: 1;
+  padding: 20px 20px 12px !important;
+}
+
+.project__card__adblogo {
+  padding: 20px 20px 16px !important;
+}
+.project__card_link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1240px) {
+  .title {
+    width: 936px;
+    margin: 0 12px 24px;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1239px) {
+  .title {
+    width: 616px;
+    margin: 0 12px 24px;
+  }
+}
+
+@media only screen and (min-width: 664px) and (max-width: 983px) {
+  .title {
+    width: 616px;
+    margin: 0 12px 24px;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+  .title {
+    width: 100%;
+    margin: 0 12px 24px;
+  }
+}

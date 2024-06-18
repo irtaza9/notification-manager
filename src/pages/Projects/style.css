@@ -1,0 +1,183 @@
+.bg__image__container {
+  min-height: 80px;
+  padding-top: 48px;
+  position: relative;
+  display: flex;
+  height: 308px;
+  transition: height 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  --fire-color-featurebar-bg: rgb(26, 115, 232);
+  background-color: rgb(26, 115, 232);
+  margin-bottom: -227px;
+}
+
+.bg__image__container_welcome {
+  min-height: 80px;
+  /* padding-top: 48px; */
+  position: relative;
+  display: flex;
+  /* margin-bottom: 54px; */
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgb(26, 115, 232);
+}
+
+.bg__image__container_welcome_wrapper {
+  min-height: auto;
+  padding: 0;
+}
+
+.bg__image_welcome {
+  background-image: url("https://www.gstatic.com/mobilesdk/190805_mobilesdk/people-at-work@2x.png");
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  opacity: 1;
+  height: 600px;
+}
+
+.feature-bar-content {
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 936px;
+  min-height: 0;
+}
+
+.welcome-message {
+  display: flex;
+  justify-items: stretch;
+  padding: 0 12px;
+  color: #fff;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.msg_wrap {
+  box-sizing: border-box;
+  margin: 0;
+  flex: .7;
+}
+
+.msg_title {
+  font-family: "Google Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0 0 20px;
+}
+.subtitle {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.btn_wrap {
+  align-items: center;
+  display: flex;
+  margin-top: 48px;
+}
+.create-project-button {
+  height: 48px;
+  margin-right: 48px;
+  width: 180px;
+  outline-offset: -4px;
+  padding: 0 16px 0 16px;
+  box-shadow: none;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+}
+
+/* @media only screen and (min-width: 600px) {
+  .welcome-message {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 984px) {
+  .welcome-message {
+    --__--max-grid-columns: 12;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .welcome-message {
+    --__--max-grid-columns: 12;
+  }
+}
+@media only screen and (min-width: 1304px) {
+  .welcome-message {
+    --__--max-grid-columns: 16;
+  }
+} */
+
+/* when we have projects */
+.bg__image {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-image: url("https://www.gstatic.com/mobilesdk/190805_mobilesdk/woman-at-desktop@2x.png"),
+    url("https://www.gstatic.com/mobilesdk/190805_mobilesdk/man-at-desktop@2x.png");
+  background-size: 380px auto, 350px auto;
+  background-position: left -70px bottom -75px, right -50px bottom -50px;
+}
+.__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1240px) {
+  .__wrapper {
+    width: 960px;
+    padding: 0 12px;
+  }
+  .card-ng-margin {
+    margin: 0 12px 24px;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1239px) {
+  .__wrapper {
+    width: 640px;
+    padding: 0 12px;
+  }
+  .card-ng-margin {
+    margin: 0 12px 24px;
+  }
+}
+
+@media only screen and (min-width: 664px) and (max-width: 983px) {
+  .__wrapper {
+    width: 640px;
+    padding: 0 12px;
+  }
+  .card-ng-margin {
+    margin: 0 12px 24px;
+  }
+}
+
+@media only screen and (max-width: 663px) {
+  .project__wrapper {
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  .card-ng-margin {
+    margin: 0 8px 16px;
+  }
+}

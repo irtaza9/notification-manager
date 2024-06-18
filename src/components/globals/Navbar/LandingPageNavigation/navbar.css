@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  /* background-color: #1a73e8; */
+  z-index: 1000;
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  margin-left: 10px;
+}
+
+.brand__name {
+  margin-left: 12px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+.navbar.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  color: white;
+}
+
+.logout__icon:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .brand__logo {
+    display: none;
+  }
+  .brand__name {
+    margin-left: 0;
+  }
+}

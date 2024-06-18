@@ -1,0 +1,97 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.dropdown__content__project__wrapper {
+  padding-bottom: 3.25rem;
+  position: relative;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown__projects {
+  max-height: 16rem;
+  overflow: auto;
+  border-radius: 0.25rem;
+}
+
+.dropdown__projects__ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown__projects__ul li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+  max-width: 15rem;
+  position: relative;
+  color: rgb(5, 27, 44) !important;
+  cursor: pointer;
+}
+
+.dropdown__projects__ul li:hover {
+  background-color: #f1f1f1;
+}
+
+.button__wrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 3.25rem;
+  background-color: #fff;
+  border-top: 1px solid rgb(229, 232, 235);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.button__addProject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.button__wrapper:hover {
+  background-color: #f1f1f1;
+}
